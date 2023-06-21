@@ -1,16 +1,16 @@
-![图片](https://github.com/zwjzxh520/codeDemo/tree/main/golang/chanSelect/resouce/640.png?raw=true)
+![图片](https://github.com/zwjzxh520/codeDemo/blob/main/golang/chanSelect/resource/640.png?raw=true)
 
 图片来源：Midjourney
 
 先看结论：
 
-chan 用完后，最好记得关闭，防止内存泄漏
+1. chan 用完后，最好记得关闭，防止内存泄漏
 
-chan 关闭时，接收方会收到一个带零值的数据
+2. chan 关闭时，接收方会收到一个带零值的数据
 
-chan 的发送次数与读取次数要一致，否则会内存泄漏
+3. chan 的发送次数与读取次数要一致，否则会内存泄漏
 
-for...select 有多个 chan 时，每次随机读取一个 chan
+4. for...select 有多个 chan 时，每次随机读取一个 chan
 
 
 

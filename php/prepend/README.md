@@ -1,6 +1,7 @@
+# PHP 在文件头部插入内容
 ![图片](https://github.com/zwjzxh520/codeDemo/blob/main/resource/mp.png?raw=true)
 
-> 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/wMJ6HAgiTvsd5fqD7gXRcw)
+> 原文地址 [Code Demo 大全](https://mp.weixin.qq.com/s/wMJ6HAgiTvsd5fqD7gXRcw)
 
 最近遇到一个需求：在一个已知的文件头部插入一部分数据。  
 
